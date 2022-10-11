@@ -9,7 +9,7 @@ namespace AddText
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("実行するには何かキーを押してください。");
+            Console.WriteLine("ファイルパスを入力してください。");
             string filepath = Console.ReadLine();
 
             var config = ConfigurationManager.AppSettings;
